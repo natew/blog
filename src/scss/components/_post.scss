@@ -3,7 +3,7 @@
     --flow-space: #{get-size(800)};
 
     /**
-     * Generic HTML styles 
+     * Generic HTML styles
      */
     h2 + *,
     h3 + * {
@@ -51,14 +51,14 @@
 
     blockquote {
       border-left: 0.4rem solid var(--color-theme-primary-glare);
-      margin-left: 0;
+      margin-left: get-size(500);
       padding-left: get-size(500);
       font-style: italic;
-      font-size: get-size(600);
+      font-size: get-size(500);
 
       p {
-        opacity: 0.85;
-        padding: get-size(500) 0;
+        opacity: 0.9;
+        padding: 0;
       }
     }
 
@@ -67,7 +67,7 @@
       margin-left: get-size(800);
 
       li + li {
-        margin-top: get-size(300);
+        margin-top: 0.4rem;
       }
     }
 
